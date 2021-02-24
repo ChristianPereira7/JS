@@ -1,9 +1,26 @@
+
+
+/* Evento de Teclado
+function digitou(e){
+    if(e.keyCode == 13){ //Enter
+        let texto = document.getElementById("campo").value;
+
+        console.log(texto);
+    }
+}
+/*
+
+/* Evento de teclado
+function digitou(){
+    console.log("Usuário está digitando");
+}
+*/
+
+/* Evento de clique
 function clicou(){
     document.getElementById("titulo").innerHTML= "Texto 2";
 }
-
-
-
+*/
 
 /* Função
 function somar(x, y){
