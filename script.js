@@ -1,3 +1,9 @@
+function clicou(){
+    document.getElementById("titulo").innerHTML= "Texto 2";
+}
+
+
+
 
 /* Função
 function somar(x, y){
